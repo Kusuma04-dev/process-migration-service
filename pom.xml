@@ -36,6 +36,7 @@
     <version.cargo-maven3-plugin>1.10.4</version.cargo-maven3-plugin>
     <version.org.yaml.snakeyaml>2.0</version.org.yaml.snakeyaml>
     <version.io.netty>4.1.118.Final</version.io.netty>
+    <version.mchange.commons.java>0.4.0</version.mchange.commons.java>
 
     <!-- Quarkus database setup -->
     <maven.jdbc.db-kind>h2</maven.jdbc.db-kind>
@@ -121,6 +122,12 @@
         <version>${version.io.quarkus}</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+      <!-- Override mchange-commons-java version from Quarkus BOM -->
+      <dependency>
+        <groupId>com.mchange</groupId>
+        <artifactId>mchange-commons-java</artifactId>
+        <version>${version.mchange.commons.java}</version>
       </dependency>
       <dependency>
         <groupId>org.projectlombok</groupId>
