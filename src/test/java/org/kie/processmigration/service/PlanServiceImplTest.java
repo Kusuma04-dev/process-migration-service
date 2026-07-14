@@ -18,7 +18,7 @@ package org.kie.processmigration.service;
 
 import java.util.List;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.hamcrest.CoreMatchers;

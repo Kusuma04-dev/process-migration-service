@@ -19,7 +19,7 @@ package org.kie.processmigration.service;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.junit.jupiter.api.Test;
 import org.kie.processmigration.model.Migration;

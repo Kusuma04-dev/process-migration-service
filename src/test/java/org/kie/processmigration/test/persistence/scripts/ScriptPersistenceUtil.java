@@ -23,7 +23,7 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Properties;
 
-import javax.sql.DataSource;
+import jakarta.sql.DataSource;
 
 import org.kie.processmigration.test.persistence.scripts.util.SQLScriptUtil;
 import org.kie.processmigration.test.persistence.scripts.util.ScriptUtil;

@@ -18,8 +18,8 @@ package org.kie.processmigration.service.impl;
 
 import java.util.Date;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 
 import org.kie.processmigration.model.Migration;
 import org.kie.processmigration.model.exceptions.InvalidMigrationException;

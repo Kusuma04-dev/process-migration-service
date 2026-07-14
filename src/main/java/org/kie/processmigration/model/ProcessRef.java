@@ -15,8 +15,8 @@
  */
 package org.kie.processmigration.model;
 
-import javax.persistence.Embeddable;
-import javax.validation.constraints.NotBlank;
+import jakarta.persistence.Embeddable;
+import jakarta.validation.constraints.NotBlank;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

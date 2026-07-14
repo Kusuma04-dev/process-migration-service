@@ -21,7 +21,7 @@ import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.wildfly.security.auth.server.RealmMapper;
 import org.wildfly.security.evidence.Evidence;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import java.security.Principal;
 
 @ApplicationScoped

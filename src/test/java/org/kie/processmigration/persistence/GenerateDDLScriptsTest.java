@@ -27,7 +27,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Stream;
 
-import javax.persistence.Persistence;
+import jakarta.persistence.Persistence;
 
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
@@ -101,9 +101,9 @@ public class GenerateDDLScriptsTest {
         StringWriter create = new StringWriter();
 
         properties.put("hibernate.dialect", scriptFile.getDialect());
-        properties.put("javax.persistence.schema-generation.scripts.action", "drop-and-create");
-        properties.put("javax.persistence.schema-generation.scripts.drop-target", drop);
-        properties.put("javax.persistence.schema-generation.scripts.create-target", create);
+        properties.put("jakarta.persistence.schema-generation.scripts.action", "drop-and-create");
+        properties.put("jakarta.persistence.schema-generation.scripts.drop-target", drop);
+        properties.put("jakarta.persistence.schema-generation.scripts.create-target", create);
         Persistence.generateSchema("org.kie.test.persistence.generate-ddl-scripts", properties);
 
         try (FileWriter dropFile = new FileWriter(dropFilePath.toString());

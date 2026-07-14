@@ -20,8 +20,8 @@ import org.kie.processmigration.model.Plan;
 import org.kie.processmigration.model.exceptions.PlanNotFoundException;
 import org.kie.processmigration.service.PlanService;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.transaction.Transactional;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
